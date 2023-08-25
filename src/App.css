@@ -1,0 +1,55 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+  background-image: url('./img/bg-image\ \(2\).jpg');
+}
+
+
+input {
+  font-size: 20px;
+  color: rgb(red, green, blue);
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(red, green, blue);
+  padding: 5px;
+}
+
+
+article {
+  display: grid;
+}
+
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button.selected {
+  color: #FFF;
+  background-color: #6c6777;
+}
+
+.button.clear {
+  float: right;
+  color: #FFF;
+  background-color: #ee1630;
+  width: 170px;
+}
