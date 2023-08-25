@@ -42,6 +42,6 @@
       "last 1 safari version"
     ]
   },
-  "query" : "http:/localhost:4000/"
+  "query" : "https://mern-todolist-backend.onrender.com"
 
 }
