@@ -42,6 +42,5 @@
       "last 1 safari version"
     ]
   },
-  "query" : "https://mern-todolist-deploy.onrender.com"
-
+  "proxy" : "https://mern-todolist-2tro.onrender.com/"
 }

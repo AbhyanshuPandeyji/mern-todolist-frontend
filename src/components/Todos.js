@@ -25,7 +25,7 @@ export const Todos = () => {
     // will take all todos and run every time a new todo is been added
     useEffect(() => {
         dispatch(getAllTodos());
-    }, [])
+    }, [dispatch])
 
 
     const getTodos = () => {
