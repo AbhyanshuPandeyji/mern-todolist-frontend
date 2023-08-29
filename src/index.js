@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 // you cannot directly wrap it to wrap the app you need the provider - comes from react redux
 import { Provider } from 'react-redux';
 

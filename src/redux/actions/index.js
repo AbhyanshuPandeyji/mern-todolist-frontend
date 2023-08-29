@@ -6,7 +6,7 @@ import axios from 'axios'
 import { ADDNEW_TODO,GETALL_TODO,TOGGLE_TODO,TOGGLE_TAB,UPDATE_TODO,DELETE_TODO } from './type.js';
 
 // our main url 
-const API_URL = 'https://mern-todolist-2tro.onrender.com';
+const API_URL = '/api';
 
 
 // now api calling first one will be post to post todo data in the storage
